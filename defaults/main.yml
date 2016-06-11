@@ -9,5 +9,5 @@ java_archive_checksum: 79a3f25e9b466cb9e969d1772ea38550de320c88e9119bf8aa11ce854
 java_archive_checksum_algorithm: sha256
 java_archive_cache_path: /usr/local/pkg
 java_archive_destination_path: /usr/local
-java_archive_extracted_file_name: java
-java_archive_destination_file_name: java{{ java_version }}
+java_archive_extracted_file_name: jdk1.8.0_92
+java_archive_destination_file_name: java

@@ -20,7 +20,7 @@ Role Variables
 * java_archive_checksum_algorithm: Optional. The installation archive checksum algorithm. Default: sha256.
 * java_archive_cache_path: Optional. The directory path into which the archive will be downloaded. Default: /usr/local/pkg.
 * java_archive_destination_path: Optional. The installation prefix directory path. Default: /usr/local.
-* java_archive_extracted_file_name: Optional. The expected name of the root file or directory that is extracted from the archive. Default: java.
+* java_archive_extracted_file_name: Optional. The expected name of the root file or directory that is extracted from the archive. Default: jdk1.8.0_92.
 * java_archive_destination_file_name: Optional. Rename the extracted directory to this value.
 
 Example Playbook

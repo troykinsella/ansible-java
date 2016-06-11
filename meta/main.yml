@@ -1,0 +1,30 @@
+---
+dependencies:
+- role: troykinsella.archive
+  archive_file_name: "{{ java_archive_filename }}"
+  archive_fetch_headers: "Cookie: oraclelicense=accept-securebackup-cookie"
+  archive_url: "{{ java_archive_base_url }}"
+  archive_checksum: "{{ java_archive_checksum }}"
+  archive_checksum_algorithm: "{{ java_archive_checksum_algorithm }}"
+  archive_cache_path: "{{ java_archive_cache_path }}"
+  archive_destination_path: "{{ java_archive_destination_path }}"
+  archive_extracted_file_name: "{{ java_archive_extracted_file_name }}"
+  archive_destination_file_name: "{{ java_archive_destination_file_name }}"
+
+galaxy_info:
+  author: Troy Kinsella
+  description: The Oracle Java JDK.
+  license: MIT
+  min_ansible_version: 1.9
+  platforms:
+  - name: Ubuntu
+    versions:
+    - trusty
+    - utopic
+    - vivid
+    - wily
+    - xenial
+  galaxy_tags:
+    - packaging
+    - java
+  github_branch: master
